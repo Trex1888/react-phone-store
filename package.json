@@ -7,12 +7,14 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "global": "^4.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-paypal-express-checkout": "^1.0.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.0",
+    "surge": "^0.21.3"
   },
   "scripts": {
     "start": "react-scripts start",
