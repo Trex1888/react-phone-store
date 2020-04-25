@@ -29,10 +29,10 @@ export default class MyApp extends React.Component {
     //let total = 1; // same as above, this is the total amount (based on currency) to be paid by using Paypal express checkout
     // Document on Paypal's currency code: https://developer.paypal.com/docs/classic/api/currency_codes/
 
-    //const client = {
-    //sandbox: process.env.REACT_APP_APP_ID,
-    // production: "YOUR-PRODUCTION-APP-ID",
-    //};
+    /*    const client = {
+      sandbox: process.env.REACT_APP_APP_ID,
+      production: "YOUR-PRODUCTION-APP-ID",
+    }; */
     // In order to get production's app-ID, you will have to send your app to Paypal for approval first
     // For sandbox app-ID (after logging into your developer account, please locate the "REST API apps" section, click "Create App"):
     //   => https://developer.paypal.com/docs/classic/lifecycle/sb_credentials/
@@ -40,6 +40,7 @@ export default class MyApp extends React.Component {
     //   => https://developer.paypal.com/docs/classic/lifecycle/goingLive/
 
     // NB. You can also have many Paypal express checkout buttons on page, just pass in the correct amount and they will work!
+
     return (
       <PaypalExpressBtn
         env={env}
